@@ -38,9 +38,9 @@ class Solution:
         postorder(root, result)
         return result
 
-i1 = input("Enter input serialization with space separated: ")
-input1 = [int(x) if x.isdigit() else None for x in i1.split(" ")]
+i1 = input('Enter array with comma(",") separated: ')
+input1 = [int(x) if x.isdigit() else None for x in i1.split(",")]
 tree1 = Solution.createTree(input1)
-output1 = print("Output", Solution.traverseTree(tree1))
+print("Output", Solution.traverseTree(tree1))
 
 
