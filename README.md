@@ -32,17 +32,13 @@ Modify the input list in main.py with your desired input serialization.
 
 Run the program:
 
+
+   
+# Example usage
 ```bash
    python main.py
+   Enter input serialization with space separated: 1 None 3 2 4 None 5 6
+   Output [4, 6, 5, 2, 3, 1]
 The program will display the postorder traversal result.
-# Example usage
-input1 = [1, None, 3, 2, 4, None, 5, 6]
-tree1 = Solution.createTree(input1)
-output1 = Solution.traverseTree(tree1)
-print(output1)  # Output: [5, 6, 3, 2, 4, 1]
 
-input2 = [1, None, 2, 3, 4, 5, None, None, 6, 7, None, 8, None, 9, 10, None, None, 11,
-          None, 12, None, 13, None, None, 14]
-tree2 = Solution.createTree(input2)
-output2 = Solution.traverseTree(tree2)
-print(output2)  # Output: [2, 6, 14, 11, 7, 3, 12, 8, 4, 13, 9, 10, 5, 1]
+
