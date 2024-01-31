@@ -37,7 +37,7 @@ Run the program:
 # Example usage
 ```bash
    python main.py
-   Enter input serialization with space separated: 1 None 3 2 4 None 5 6
+   Enter input serialization with comma(",") separated: 1,None,3,2,4,None,5,6
    Output [4, 6, 5, 2, 3, 1]
 The program will display the postorder traversal result.
 
