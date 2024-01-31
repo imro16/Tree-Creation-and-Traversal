@@ -19,6 +19,22 @@ Run Below command
     # No external dependencies required
     python main.py
 
+Input Serialization
+You can customize the input serialization by modifying the input list in the main.py file. Make sure to follow the format mentioned in the code comments.
+
+Viewing the Output
+The program will display the postorder traversal of the N-ary tree based on your input serialization.
+
+Example
+Here's an example of how to use the program with custom input:
+
+Modify the input list in main.py with your desired input serialization.
+
+Run the program:
+
+```bash
+   python main.py
+The program will display the postorder traversal result.
 # Example usage
 input1 = [1, None, 3, 2, 4, None, 5, 6]
 tree1 = Solution.createTree(input1)
